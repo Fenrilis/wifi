@@ -473,7 +473,7 @@ dial-peer voice 69 voip
  no vad
 !
 telephony-service
- moh "flash:/en32bacd32music32on32hold.au"
+ moh "flash:/en_bacd_music_on_hold.au"
 !
 application
  service rivanaa flash:app-b-acd-aa-3.0.0.2.tcl
@@ -481,7 +481,7 @@ application
   param number-of-hunt-grps 2
   param dial-by-extension-option 8
   param handoff-string rivanaa
-  param welcome-prompt flash:en32bacd32welcome.au
+  param welcome-prompt flash:en_bacd_welcome.au
   paramspace english language en
   param call-retry-timer 15
   param service-name rivanqueue
@@ -499,6 +499,7 @@ application
   param aa-hunt4 3233
   param queue-manager-debugs 1
   param number-of-hunt-grps 4
+  end
 ****************************************************************************
 HOW TO FIX THE SHYT
 config t
