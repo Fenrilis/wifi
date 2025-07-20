@@ -435,7 +435,7 @@ conf t
  ip route 10.32.0.0 255.255.0.0 10.32.32.4
  NO ip route 10.32.0.0 255.255.0.0 200.0.0.32
  end
- 
+!!!end of day 1 exercise 
 *********************************************
 Layer three/3 switch ROUTING = 300k up!!!
 @SWITCH/COREBABA
