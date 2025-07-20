@@ -436,6 +436,7 @@ conf t
  NO ip route 10.32.0.0 255.255.0.0 200.0.0.32
  end
 !!!end of day 1 exercise 
+
 *********************************************
 Layer three/3 switch ROUTING = 300k up!!!
 @SWITCH/COREBABA
@@ -589,7 +590,7 @@ conf t
         application
                 service ?  
 ***********************************************************
-
+day 1 exer
 SIP CONFIGURATION: session initiation Protocol: non-Cisco
 conf t
  voice service voip
@@ -632,6 +633,7 @@ conf t
     username 3175 password 3175
     codec g711ulaw
 !
+day 1 exer
 *******call other countries!!!********
 config t
 !
